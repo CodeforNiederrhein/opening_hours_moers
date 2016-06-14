@@ -122,8 +122,7 @@ var markerClusters = new L.MarkerClusterGroup({
   spiderfyOnMaxZoom: true,
   showCoverageOnHover: false,
   zoomToBoundsOnClick: true,
-  disableClusteringAtZoom: 17
-  
+  disableClusteringAtZoom: 25
 });
 /* Empty layer placeholder to add to layer control for listening when to add/remove laden to markerClusters layer */
 var ladenLayer = L.geoJson(null);
