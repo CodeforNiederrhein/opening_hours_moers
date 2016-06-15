@@ -124,43 +124,75 @@ var markerClusters = new L.MarkerClusterGroup({
   zoomToBoundsOnClick: true,
   disableClusteringAtZoom: 25
 });
+var openicon =L.icon({
+  iconUrl: "assets/img/shopping1_grün.png",
+  iconSize: [20, 20],
+  iconAnchor: [10, 10],
+  popupAnchor: [0, -25]
+});
+var closeicon = L.icon({
+  iconUrl: "assets/img/shopping1.png",
+  iconSize: [20, 20],
+  iconAnchor: [10, 10],
+  popupAnchor: [0, -25]
+});
+var dayopen = ['Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'];
+var dayofweeks = ['Sonntag','Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'];
+var date = new Date();
+var day = date.getDay();
+var hours = date.getHours();
+var minute = date.getMinutes();
+function isopen (features) {
+  var weekdayname =dayofweeks[day];
+  var von = features.properties[weekdayname + '_von'].split('.');
+  var vonStunde = Number(von[0]);
+  var vonMinute = Number(von[1]);
+  var bis = features.properties[weekdayname + '_bis'].split('.');
+  var bisStunde = Number(bis[0]);
+  var bisMinute = Number(bis[1]);
+  var isHoursVon = vonStunde < hours || vonStunde == hours && vonMinute <= minute;
+  var isHoursBis = bisStunde > hours || bisStunde == hours && bisMinute >= minute;
+  return isHoursVon && isHoursBis;
+}
 /* Empty layer placeholder to add to layer control for listening when to add/remove laden to markerClusters layer */
 var ladenLayer = L.geoJson(null);
 var laden = L.geoJson(null, {
   pointToLayer: function (feature, latlng) {
-    return L.marker(latlng, {
-      icon: L.icon({
-        iconUrl: "assets/img/shopping1.png",
-        iconSize: [20, 20],
-        iconAnchor: [10, 10],
-        popupAnchor: [0, -25]
-      }),
-      title: feature.properties.Firma
-      ,
-      riseOnHover: true
-    });
+      if(isopen(feature)) {
+      return L.marker(latlng, {
+        icon: openicon,
+        title: feature.properties.Firma,
+        riseOnHover: true
+      });
+    }
+    else {
+      return L.marker(latlng, {
+        icon: closeicon,
+        title: feature.properties.Firma,
+        riseOnHover: true
+      });
+    }
   },
   onEachFeature: function (feature, layer) {
     if (feature.properties) {
       if (feature.properties.Montag_Pause.length > 0) {
+
+        var maincontent = dayopen.map(function (dayofweek) {
+         return "<tr><th>"+ dayofweek + "</th><td>" + feature.properties[dayofweek + '_von'] + " - " + feature.properties[dayofweek + '_bis'] + " Pause: " + feature.properties[dayofweek + '_Pause'] + "</td></tr>"
+
+        })
         var content = "<table class='table table-striped table-bordered table-condensed'>" + "<tr><th>Name</th><td>" + feature.properties.Firma + "</td></tr>" + "<tr><th>Telefonnummer</th><td>" + feature.properties.Fon + "</td></tr>" + "<tr><th>Adresse</th><td>" + feature.properties.Straße_Nr + "</td></tr>"
-            + "<tr><th>Montag</th><td>" + feature.properties.Montag_von + " - " + feature.properties.Montag_bis + " Pause: " + feature.properties.Montag_Pause + "</td></tr>"
-            + "<tr><th>Dienstag</th><td>" + feature.properties.Dienstag_von + " - " + feature.properties.Dienstag_bis + " Pause: " + feature.properties.Dienstag_Pause + "</td></tr>"
-            + "<tr><th>Mittwoch</th><td>" + feature.properties.Mittwoch_von + " - " + feature.properties.Mittwoch_bis + " Pause: " + feature.properties.Mittwoch_Pause + "</td></tr>"
-            + "<tr><th>Donnerstag</th><td>" + feature.properties.Donnerstag_von + " - " + feature.properties.Donnerstag_bis + " Pause: " + feature.properties.Donnerstag_Pause + "</td></tr>"
-            + "<tr><th>Freitag</th><td>" + feature.properties.Freitag_von + " - " + feature.properties.Freitag_bis + " Pause: " + feature.properties.Freitag_Pause + "</td></tr>"
-            + "<tr><th>Samstag</th><td>" + feature.properties.Samstag_von + " - " + feature.properties.Samstag_bis + " Pause: " + feature.properties.Samstag_Pause + "</td></tr>"
+           + maincontent.join('')
             + "<tr><th>Website</th><td><a class='url-break' target='_blank' href=http://" + feature.properties.URL + ">" + feature.properties.URL + "</a></td></tr>" + "</table>";
       }
       if (feature.properties.Montag_Pause.length == 0)
       {
+        var maincontent1 = dayopen.map(function (dayofweek) {
+          return "<tr><th>"+ dayofweek + "</th><td>" + feature.properties[dayofweek + '_von'] + " - " + feature.properties[dayofweek + '_bis'] + "</td></tr>"
+
+        })
         var content = "<table class='table table-striped table-bordered table-condensed'>" + "<tr><th>Name</th><td>" + feature.properties.Firma + "</td></tr>" + "<tr><th>Telefonmummer</th><td>" + feature.properties.Fon + "</td></tr>" + "<tr><th>Adresse</th><td>" + feature.properties.Straße_Nr + "</td></tr>"
-            + "<tr><th>Montag</th><td>" + feature.properties.Montag_von + " - " + feature.properties.Montag_bis +"</td></tr>"
-            + "<tr><th>Dienstag</th><td>" + feature.properties.Dienstag_von + " - " + feature.properties.Dienstag_bis +"</td></tr>"
-            + "<tr><th>Mittwoch</th><td>" + feature.properties.Mittwoch_von + " - " + feature.properties.Mittwoch_bis +"</td></tr>"
-            + "<tr><th>Donnerstag</th><td>" + feature.properties.Donnerstag_von + " - " + feature.properties.Donnerstag_bis + "</td></tr>"
-            + "<tr><th>Freitag</th><td>" + feature.properties.Freitag_von + " - " + feature.properties.Freitag_bis +  "</td></tr>"
-            + "<tr><th>Samstag</th><td>" + feature.properties.Samstag_von + " - " + feature.properties.Samstag_bis +  "</td></tr>"
+            + maincontent1.join("")
             + "<tr><th>Website</th><td><a class='url-break' target='_blank' href=http://" + feature.properties.URL + ">" + feature.properties.URL + "</a></td></tr>" + "</table>";
 
       }
