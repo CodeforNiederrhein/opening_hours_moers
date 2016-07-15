@@ -168,7 +168,7 @@ var laden = L.geoJson(null, {
          return "<tr><th>"+ dayofweek + "</th><td>" + feature.properties[dayofweek + '_von'] + " - " + feature.properties[dayofweek + '_bis'] + " Pause: " + feature.properties[dayofweek + '_Pause'] + "</td></tr>"
 
         })
-        var content = "<table class='table table-striped table-bordered table-condensed'>" + "<tr><th>Name</th><td>" + feature.properties.Firma + "</td></tr>" + "<tr><th>Telefonnummer</th><td>" + feature.properties.Fon + "</td></tr>" + "<tr><th>Adresse</th><td>" + feature.properties.Straße_Nr + "</td></tr>"
+        var content = "<table class='table table-striped table-bordered table-condensed'>" + "<tr><th>Name</th><td>" + feature.properties.Firma + "</td></tr>" + "<tr><th>Telefonnummer</th><td>" + feature.properties.Fon + "</td></tr>" + "<tr><th>Adresse</th><td>" + feature.properties.Straße + " " + feature.properties.HausNr + "</td></tr>"
            + maincontent.join('')
             + "<tr><th>Website</th><td><a class='url-break' target='_blank' href=http://" + feature.properties.URL + ">" + feature.properties.URL + "</a></td></tr>" + "</table>";
       }
