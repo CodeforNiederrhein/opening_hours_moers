@@ -273,7 +273,6 @@ L.Control.GroupedLayers = L.Control.extend({
         this._map.removeLayer(obj.layer);
       }
     }
-
     this._handlingClick = false;
   },
 

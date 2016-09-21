@@ -1,5 +1,6 @@
 {
   "type": "FeatureCollection",
+  "Timestamp": "20160914",
   "features": [
     {
       "type": "Feature",
@@ -11,7 +12,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "www.becker-spielwaren.de",
-        "Fon": "2 26 17",
+        "Fon": "+492841 2 26 17",
         "Montag_von": "10.00",
         "Montag_bis": "18.30",
         "Montag_Pause": "13.00 - 14.30",
@@ -31,10 +32,9 @@
         "Samstag_bis": "16.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Spielwaren",
         "lng": "6.62669",
         "lat": "51.45259",
-        "Straße_Nr": "Friedrichstr.  65",
         "opening_hours": "Mo-Fr 10:00-13:00,14:30-18:30; We 10:00-13:00; Sa 10:00-16:00"
       },
       "geometry": {
@@ -55,7 +55,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "www.barbara-buch.de",
-        "Fon": "9 99 27 99",
+        "Fon": "+492841 9 99 27 99",
         "Montag_von": "09.30",
         "Montag_bis": "18.30",
         "Montag_Pause": "",
@@ -75,10 +75,9 @@
         "Samstag_bis": "16.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Buchhandlung",
         "lng": "6.62705",
         "lat": "51.45076",
-        "Straße_Nr": "Burgstr. 3",
         "opening_hours": "Mo-Fr 09:30-18:30; Sa 09:30-16:00"
       },
       "geometry": {
@@ -119,10 +118,9 @@
         "Samstag_bis": "16.00",
         "Samstag_Pause": "",
         "sonstiges": "Juni - August Montags geschlossen",
-        "Branche": "",
+        "Branche": "Modeschmuck und Lederwaren",
         "lng": "6.62713",
         "lat": "51.45081",
-        "Straße_Nr": "Burgstr. 1f",
         "opening_hours": "Mo-Fr 10:00-18:30; Sa 10:00-16:00; Jun-Aug Mo off"
       },
       "geometry": {
@@ -143,7 +141,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "",
-        "Fon": "2 41 16",
+        "Fon": "+492841 2 41 16",
         "Montag_von": "09.00",
         "Montag_bis": "18.30",
         "Montag_Pause": "",
@@ -163,10 +161,9 @@
         "Samstag_bis": "16.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Friseur",
         "lng": "6.62711",
         "lat": "51.45058",
-        "Straße_Nr": "Burgstr. 18",
         "opening_hours": "Mo-Fr 09:00-18:30; Sa 08:30-16:00"
       },
       "geometry": {
@@ -187,7 +184,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "www.heimelie.de",
-        "Fon": "9 16 31 71",
+        "Fon": "+492841 9 16 31 71",
         "Montag_von": "09.00",
         "Montag_bis": "18.00",
         "Montag_Pause": "",
@@ -207,10 +204,9 @@
         "Samstag_bis": "18.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Cafe",
         "lng": "6.62724",
         "lat": "51.45079",
-        "Straße_Nr": "Burgstr. 5",
         "opening_hours": "Mo-Fr 09:00-18:00; Sa 10:00-18:00"
       },
       "geometry": {
@@ -231,7 +227,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "",
-        "Fon": "2 72 00",
+        "Fon": "+492841 2 72 00",
         "Montag_von": "12.00",
         "Montag_bis": "24.00",
         "Montag_Pause": "14.00 - 18.00",
@@ -251,10 +247,9 @@
         "Samstag_bis": "24.00",
         "Samstag_Pause": "",
         "sonstiges": "Sonntags von 18.00 - 24.00 Uhr",
-        "Branche": "",
+        "Branche": "Restaurant",
         "lng": "6.62696",
         "lat": "51.45070",
-        "Straße_Nr": "Burgstr. 7",
         "opening_hours": "Mo-Fr 12:00-14:00"
       },
       "geometry": {
@@ -275,7 +270,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "",
-        "Fon": "17 87 32",
+        "Fon": "+492841 17 87 32",
         "Montag_von": "10.00",
         "Montag_bis": "19.00",
         "Montag_Pause": "",
@@ -295,10 +290,9 @@
         "Samstag_bis": "18.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Oberbekleidung",
         "lng": "6.62736",
         "lat": "51.45085",
-        "Straße_Nr": "Burgstr. 6",
         "opening_hours": "Mo-Fr 10:00-19:00; Sa 10:00-18:00"
       },
       "geometry": {
@@ -319,7 +313,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "www.alltoursreisecenter.de",
-        "Fon": "9 00 60",
+        "Fon": "+492841 9 00 60",
         "Montag_von": "09.30",
         "Montag_bis": "18.30",
         "Montag_Pause": "",
@@ -339,10 +333,9 @@
         "Samstag_bis": "14.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Reisebüro",
         "lng": "6.63177",
         "lat": "51.45083",
-        "Straße_Nr": "Homberger Str. 25",
         "opening_hours": "Mo-Fr 09:30-18:30; Sa 10:00-14:00"
       },
       "geometry": {
@@ -383,10 +376,9 @@
         "Samstag_bis": "19.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Bäckerei",
         "lng": "6.63020",
         "lat": "51.45079",
-        "Straße_Nr": "Homberger Str. 10",
         "opening_hours": "Mo-Fr 06:30-19:00; Sa 07:00-19:00"
       },
       "geometry": {
@@ -407,7 +399,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "www.best-coins.com",
-        "Fon": "92 96 97",
+        "Fon": "+492841 92 96 97",
         "Montag_von": "10.00",
         "Montag_bis": "18.00",
         "Montag_Pause": "13.30 - 15.30",
@@ -427,17 +419,16 @@
         "Samstag_bis": "13.30",
         "Samstag_Pause": "",
         "sonstiges": "und nach Vereinbarung",
-        "Branche": "",
-        "lng": "6.63098",
-        "lat": "51.45105",
-        "Straße_Nr": "Homberger Str. 11",
+        "Branche": "Münzen",
+        "lng": "6.63093",
+        "lat": "51.45096",
         "opening_hours": "Mo-Fr 10:00-13:30"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.63098,
-          51.45105
+          6.63093,
+          51.45096
         ]
       }
     },
@@ -451,7 +442,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "www.facebook.de/Blumenspangenberg",
-        "Fon": "81 11 080",
+        "Fon": "+492841 81 11 080",
         "Montag_von": "10.00",
         "Montag_bis": "18.30",
         "Montag_Pause": "",
@@ -471,10 +462,9 @@
         "Samstag_bis": "16.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Blumen",
         "lng": "6.63165",
         "lat": "51.45085",
-        "Straße_Nr": "Homberger Str. 23",
         "opening_hours": "Mo-Fr 10:00-18:30;Sa 10:00-16:00"
       },
       "geometry": {
@@ -495,7 +485,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "",
-        "Fon": "888 93 75",
+        "Fon": "+492841 888 93 75",
         "Montag_von": "11.00",
         "Montag_bis": "19.00",
         "Montag_Pause": "",
@@ -515,10 +505,9 @@
         "Samstag_bis": "18.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Imbiss",
         "lng": "6.63128",
         "lat": "51.45064",
-        "Straße_Nr": "Homberger Str. 20-22",
         "opening_hours": "Mo-Fr 11:00-19:00;Sa 11:00-18:00"
       },
       "geometry": {
@@ -539,7 +528,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "www.kioswest24.de",
-        "Fon": "91 88 0",
+        "Fon": "+492841 91 88 0",
         "Montag_von": "09.00",
         "Montag_bis": "18.00",
         "Montag_Pause": "",
@@ -559,10 +548,9 @@
         "Samstag_bis": "14.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Reisebüro",
         "lng": "6.62947",
         "lat": "51.45041",
-        "Straße_Nr": "Homberger Str. 2",
         "opening_hours": "Mo-Fr 09:00-18:00;Sa 10:00-14:00"
       },
       "geometry": {
@@ -603,10 +591,9 @@
         "Samstag_bis": "18.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Oberbekleidung",
         "lng": "6.63117",
         "lat": "51.45095",
-        "Straße_Nr": "Homberger Str. 15",
         "opening_hours": "Mo-Fr 09:00-19:00;Sa 09:00-18:00"
       },
       "geometry": {
@@ -627,7 +614,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "",
-        "Fon": "2 35 84",
+        "Fon": "+492841 2 35 84",
         "Montag_von": "09.00",
         "Montag_bis": "19.00",
         "Montag_Pause": "",
@@ -647,10 +634,9 @@
         "Samstag_bis": "16.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Optiker",
         "lng": "6.63187",
         "lat": "51.45079",
-        "Straße_Nr": "Homberger Str. 27",
         "opening_hours": "Mo-Fr 09:00-19:00;Sa 10:00-16:00"
       },
       "geometry": {
@@ -671,7 +657,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "www.fotobrell.com",
-        "Fon": "23 0 49",
+        "Fon": "+492841 23 0 49",
         "Montag_von": "09.30",
         "Montag_bis": "19.00",
         "Montag_Pause": "",
@@ -691,10 +677,9 @@
         "Samstag_bis": "16.00",
         "Samstag_Pause": "",
         "sonstiges": "Advent-Samstage 10.00 - 18.00",
-        "Branche": "",
+        "Branche": "Foto",
         "lng": "6.63020",
         "lat": "51.45079",
-        "Straße_Nr": "Homberger Str. 10",
         "opening_hours": "Mo-Fr 09:30-19:00;Sa 10:00-16:00"
       },
       "geometry": {
@@ -715,7 +700,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "",
-        "Fon": "1 84 87",
+        "Fon": "+492841 1 84 87",
         "Montag_von": "10.00",
         "Montag_bis": "18.00",
         "Montag_Pause": "",
@@ -735,10 +720,9 @@
         "Samstag_bis": "13.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Gardinen",
         "lng": "6.63359",
         "lat": "51.45052",
-        "Straße_Nr": "Homberger Str. 41",
         "opening_hours": "Mo-Fr 10:30-18:00;Sa 10:00-13:00"
       },
       "geometry": {
@@ -759,7 +743,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "www.geers.de",
-        "Fon": "88 23 63",
+        "Fon": "+492841 88 23 63",
         "Montag_von": "09.30",
         "Montag_bis": "18.00",
         "Montag_Pause": "",
@@ -779,10 +763,9 @@
         "Samstag_bis": "14.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Hörakkustik",
         "lng": "6.63128",
         "lat": "51.45064",
-        "Straße_Nr": "Homberger Str. 20-22",
         "opening_hours": "Mo-Fr 09:30-18:00;Sa 10:00-14:00"
       },
       "geometry": {
@@ -803,7 +786,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "www.genusto.de",
-        "Fon": "916 33 47",
+        "Fon": "+492841 916 33 47",
         "Montag_von": "10.00",
         "Montag_bis": "18.30",
         "Montag_Pause": "",
@@ -823,10 +806,9 @@
         "Samstag_bis": "16.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Weine",
         "lng": "6.63087",
         "lat": "51.45104",
-        "Straße_Nr": "Homberger Str. 9",
         "opening_hours": "Mo-Fr 10:30-18:00;Sa 10:00-16:00"
       },
       "geometry": {
@@ -847,7 +829,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "",
-        "Fon": "92 17 17",
+        "Fon": "+492841 92 17 17",
         "Montag_von": "09.00",
         "Montag_bis": "18.00",
         "Montag_Pause": "13.30 - 14.30",
@@ -867,10 +849,9 @@
         "Samstag_bis": "14.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Friseur",
         "lng": "6.63359",
         "lat": "51.45052",
-        "Straße_Nr": "Homberger Str. 41",
         "opening_hours": "Mo-Fr 09:00-13:30,14:30-18:00;Sa 10:00-14:00"
       },
       "geometry": {
@@ -891,7 +872,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "",
-        "Fon": "91 66 091",
+        "Fon": "+492841 91 66 091",
         "Montag_von": "08.00",
         "Montag_bis": "18.30",
         "Montag_Pause": "",
@@ -911,10 +892,9 @@
         "Samstag_bis": "18.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Kaffee-Shop",
         "lng": "6.63058",
         "lat": "51.45110",
-        "Straße_Nr": "Homberger Str. 5",
         "opening_hours": "Mo-Fr 08:00-18:30;Sa 09:00-18:00"
       },
       "geometry": {
@@ -935,7 +915,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "www.lotto-am-koe.de",
-        "Fon": "26 0 40",
+        "Fon": "+492841 26 0 40",
         "Montag_von": "09.00",
         "Montag_bis": "18.30",
         "Montag_Pause": "",
@@ -955,10 +935,9 @@
         "Samstag_bis": "18.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Lotto",
         "lng": "6.63020",
         "lat": "51.45079",
-        "Straße_Nr": "Homberger Str. 10",
         "opening_hours": "Mo-Fr 09:00-18:30;Sa 09:00-18:00"
       },
       "geometry": {
@@ -979,7 +958,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "",
-        "Fon": "981 68 87",
+        "Fon": "+492841 981 68 87",
         "Montag_von": "08.00",
         "Montag_bis": "18.30",
         "Montag_Pause": "",
@@ -999,10 +978,9 @@
         "Samstag_bis": "15.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Lotto",
         "lng": "6.63391",
         "lat": "51.45020",
-        "Straße_Nr": "Homberger Str. 44",
         "opening_hours": "Mo-Fr 08:00-18:30;Sa 09:00-15:00"
       },
       "geometry": {
@@ -1016,14 +994,14 @@
     {
       "type": "Feature",
       "properties": {
-        "Firma": "Maison Kink",
+        "Firma": "Maison Kinki",
         "Quartier": "Kö-Viertel",
         "Straße": "Homberger Str.",
         "HausNr": "13",
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "",
-        "Fon": "2 70 33",
+        "Fon": "+492841 2 70 33",
         "Montag_von": "10.00",
         "Montag_bis": "18.30",
         "Montag_Pause": "",
@@ -1043,10 +1021,9 @@
         "Samstag_bis": "16.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Oberbekleidung",
         "lng": "6.63109",
         "lat": "51.45103",
-        "Straße_Nr": "Homberger Str. 13",
         "opening_hours": "Mo-Fr 10:00-18:30;Sa 10:00-16:00"
       },
       "geometry": {
@@ -1067,7 +1044,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "",
-        "Fon": "2 27 04",
+        "Fon": "+492841 2 27 04",
         "Montag_von": "10.00",
         "Montag_bis": "18.30",
         "Montag_Pause": "",
@@ -1087,10 +1064,9 @@
         "Samstag_bis": "18.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Handy und Elektro",
         "lng": "6.63455",
         "lat": "51.45009",
-        "Straße_Nr": "Homberger Str. 56",
         "opening_hours": "Mo-Fr 10:00-18:30;Sa 10:00-18:00"
       },
       "geometry": {
@@ -1111,7 +1087,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "www.md.de",
-        "Fon": "88 55 367",
+        "Fon": "+492841 88 55 367",
         "Montag_von": "10.00",
         "Montag_bis": "19.00",
         "Montag_Pause": "",
@@ -1131,10 +1107,9 @@
         "Samstag_bis": "16.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Telekommunikation",
         "lng": "6.63072",
         "lat": "51.45104",
-        "Straße_Nr": "Homberger Str. 7",
         "opening_hours": "Mo-Fr 10:00-19:00; Sa 10:00-16:00"
       },
       "geometry": {
@@ -1155,7 +1130,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "",
-        "Fon": "2 28 71",
+        "Fon": "+492841 2 28 71",
         "Montag_von": "10.00",
         "Montag_bis": "18.30",
         "Montag_Pause": "",
@@ -1175,10 +1150,9 @@
         "Samstag_bis": "14.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Fachhandel Nähmaschinen",
         "lng": "6.63046",
         "lat": "51.45110",
-        "Straße_Nr": "Homberger Str. 3",
         "opening_hours": "Mo-Fr 10:00-18:30; Sa 10:00-14:00"
       },
       "geometry": {
@@ -1199,7 +1173,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "www.opticschulte.de",
-        "Fon": "17 76 33",
+        "Fon": "+492841 17 76 33",
         "Montag_von": "09.30",
         "Montag_bis": "18.30",
         "Montag_Pause": "",
@@ -1219,10 +1193,9 @@
         "Samstag_bis": "16.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Optiker",
         "lng": "6.63120",
         "lat": "51.45065",
-        "Straße_Nr": "Homberger Str. 22",
         "opening_hours": "Mo-Fr 09:30-18:30; Sa 10:00-16:00"
       },
       "geometry": {
@@ -1243,7 +1216,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "www.partykrake.de",
-        "Fon": "88 17 7 57",
+        "Fon": "+492841 88 17 7 57",
         "Montag_von": "09.30",
         "Montag_bis": "18.00",
         "Montag_Pause": "",
@@ -1263,10 +1236,9 @@
         "Samstag_bis": "16.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Geschenkartikel",
         "lng": "6.63131",
         "lat": "51.45094",
-        "Straße_Nr": "Homberger Str. 17",
         "opening_hours": "Mo-Fr 09:30-18:00; Sa 10:00-16:00"
       },
       "geometry": {
@@ -1287,7 +1259,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "",
-        "Fon": "888 770",
+        "Fon": "+492841 888 770",
         "Montag_von": "09.00",
         "Montag_bis": "21.00",
         "Montag_Pause": "",
@@ -1307,10 +1279,9 @@
         "Samstag_bis": "21.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Call Center",
         "lng": "6.63439",
         "lat": "51.45008",
-        "Straße_Nr": "Homberger Str. 54",
         "opening_hours": "Mo-Sa 09:00-21:00"
       },
       "geometry": {
@@ -1331,7 +1302,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "",
-        "Fon": "23 56 0",
+        "Fon": "+492841 23 56 0",
         "Montag_von": "09.00",
         "Montag_bis": "18.30",
         "Montag_Pause": "13.00 - 14.30",
@@ -1351,10 +1322,9 @@
         "Samstag_bis": "14.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Optiker",
         "lng": "6.63506",
         "lat": "51.45025",
-        "Straße_Nr": "Homberger Str. 51",
         "opening_hours": "Mo-Fr 09:00-13:00,14:30-18:30; Sa 10:00-14:00"
       },
       "geometry": {
@@ -1375,7 +1345,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "",
-        "Fon": "2 11 66",
+        "Fon": "+492841 2 11 66",
         "Montag_von": "09.30",
         "Montag_bis": "18.30",
         "Montag_Pause": "",
@@ -1395,10 +1365,9 @@
         "Samstag_bis": "15.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Stoffe",
         "lng": "6.63196",
         "lat": "51.45077",
-        "Straße_Nr": "Homberger Str. 29",
         "opening_hours": "Mo-Fr 09:30-18:30; Sa 09:30-15:00"
       },
       "geometry": {
@@ -1419,7 +1388,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "www.strauss-innovation.de",
-        "Fon": "99 99 39 01",
+        "Fon": "+492841 99 99 39 01",
         "Montag_von": "09.30",
         "Montag_bis": "19.00",
         "Montag_Pause": "",
@@ -1439,10 +1408,9 @@
         "Samstag_bis": "18.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Heimtextilien, Oberbekleidung",
         "lng": "6.63263",
         "lat": "51.45043",
-        "Straße_Nr": "Homberger Str. 34",
         "opening_hours": "Mo-Fr 09:30-19:00; Sa 09:30-18:00"
       },
       "geometry": {
@@ -1456,7 +1424,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Firma": "Bijou Brigitte",
+        "Firma": "Bijou Brigitte  ",
         "Quartier": "Stein",
         "Straße": "Steinstr.",
         "HausNr": "34",
@@ -1483,10 +1451,9 @@
         "Samstag_bis": "18.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Modeschmuck",
         "lng": "6.62846",
         "lat": "51.45102",
-        "Straße_Nr": "Steinstr. 34",
         "opening_hours": "Mo-Fr 09:30-19:00; Sa 09:30-18:00"
       },
       "geometry": {
@@ -1527,10 +1494,9 @@
         "Samstag_bis": "16.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Optiker",
         "lng": "6.62633",
         "lat": "51.45137",
-        "Straße_Nr": "Steinstr. 11",
         "opening_hours": "Mo-Fr 09:30-18:30; Sa 10:00-16:00"
       },
       "geometry": {
@@ -1571,10 +1537,9 @@
         "Samstag_bis": "19.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Oberbekleidung",
         "lng": "6.62829",
         "lat": "51.45122",
-        "Straße_Nr": "Steinstr. 30",
         "opening_hours": "Mo-Fr 09:30-19:30; Sa 09:30-19:00"
       },
       "geometry": {
@@ -1615,10 +1580,9 @@
         "Samstag_bis": "18.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Herrenmode",
         "lng": "6.62562",
         "lat": "51.45172",
-        "Straße_Nr": "Steinstr. 2",
         "opening_hours": "Mo-Fr 09:30-19:00; Sa 09:30-18:00"
       },
       "geometry": {
@@ -1639,7 +1603,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "www.fotofabritz.de",
-        "Fon": "9 73 73",
+        "Fon": "+492841 9 73 73",
         "Montag_von": "10.00",
         "Montag_bis": "18.30",
         "Montag_Pause": "13.00 - 14.00",
@@ -1659,10 +1623,9 @@
         "Samstag_bis": "14.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Foto",
         "lng": "6.62649",
         "lat": "51.45133",
-        "Straße_Nr": "Steinstr. 15",
         "opening_hours": "Mo-Fr 10:00-13:00,14:00-18:30; We,Sa 10:00-14:00"
       },
       "geometry": {
@@ -1683,7 +1646,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "",
-        "Fon": "2 20 90",
+        "Fon": "+492841 2 20 90",
         "Montag_von": "09.30",
         "Montag_bis": "18.30",
         "Montag_Pause": "",
@@ -1703,10 +1666,9 @@
         "Samstag_bis": "16.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Foto",
         "lng": "6.62553",
         "lat": "51.45177",
-        "Straße_Nr": "Neumarkt 3",
         "opening_hours": "Mo-Fr 09:30-18:30;Sa 10:00-16:00"
       },
       "geometry": {
@@ -1747,10 +1709,9 @@
         "Samstag_bis": "18.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Oberbekleidung",
         "lng": "6.62751",
         "lat": "51.45114",
-        "Straße_Nr": "Steinstr. 22",
         "opening_hours": "Mo-Fr 10:00-19:00;Sa 10:00-18:00"
       },
       "geometry": {
@@ -1771,7 +1732,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "www.hussel.de",
-        "Fon": "1 67 97",
+        "Fon": "+492841 1 67 97",
         "Montag_von": "09.00",
         "Montag_bis": "18.00",
         "Montag_Pause": "",
@@ -1790,11 +1751,10 @@
         "Samstag_von": "09.00",
         "Samstag_bis": "18.00",
         "Samstag_Pause": "",
-        "sonstiges": "Ostern- und Weihnachts- Saison verlängerte Öffnungszeiten",
-        "Branche": "",
+        "sonstiges": "Ostern- und Weihnachts- Saison verlangerte Ã–ffnungszeiten",
+        "Branche": "Süßwaren",
         "lng": "6.62665",
         "lat": "51.45122",
-        "Straße_Nr": "Steinstr. 17",
         "opening_hours": "Mo-Sa 09:00-18:00"
       },
       "geometry": {
@@ -1815,7 +1775,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "www.juwelier-art.de",
-        "Fon": "14 46 61",
+        "Fon": "+492841 14 46 61",
         "Montag_von": "10.00",
         "Montag_bis": "18.30",
         "Montag_Pause": "",
@@ -1835,10 +1795,9 @@
         "Samstag_bis": "16:00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Schmuck",
         "lng": "6.62756",
         "lat": "51.45113",
-        "Straße_Nr": "Steinstr. 24",
         "opening_hours": "Mo-Fr 10:00-18:30; Sa 10:00-16:00"
       },
       "geometry": {
@@ -1859,7 +1818,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "",
-        "Fon": "99 88 751",
+        "Fon": "+492841 99 88 751",
         "Montag_von": "08.30",
         "Montag_bis": "18.30",
         "Montag_Pause": "",
@@ -1879,10 +1838,9 @@
         "Samstag_bis": "18.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Lotto",
         "lng": "6.62673",
         "lat": "51.45147",
-        "Straße_Nr": "Steinstr. 10",
         "opening_hours": "Mo-Th 08:30-18:30; Fr 08:30-19:00; Sa 09:00-18:00"
       },
       "geometry": {
@@ -1903,7 +1861,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "www.klauser-schuhe.de",
-        "Fon": "88 06 796",
+        "Fon": "+492841 88 06 796",
         "Montag_von": "09.30",
         "Montag_bis": "19.00",
         "Montag_Pause": "",
@@ -1923,10 +1881,9 @@
         "Samstag_bis": "18.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Schuhe",
         "lng": "6.62776",
         "lat": "51.45112",
-        "Straße_Nr": "Steinstr. 28",
         "opening_hours": "Mo-Fr 09:30-19:00; Sa 10:00-18:00"
       },
       "geometry": {
@@ -1947,7 +1904,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "www.parfuemerie-pieper.de",
-        "Fon": "2 21 27",
+        "Fon": "+492841 2 21 27",
         "Montag_von": "09.00",
         "Montag_bis": "19.00",
         "Montag_Pause": "",
@@ -1967,10 +1924,9 @@
         "Samstag_bis": "18.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Parfümerie",
         "lng": "6.62721",
         "lat": "51.45129",
-        "Straße_Nr": "Steinstr. 16",
         "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:30-18:00"
       },
       "geometry": {
@@ -1991,7 +1947,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "",
-        "Fon": "90 258",
+        "Fon": "+492841 90 258",
         "Montag_von": "09.00",
         "Montag_bis": "19.00",
         "Montag_Pause": "",
@@ -2011,10 +1967,9 @@
         "Samstag_bis": "18.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Kaffee-Shop",
         "lng": "6.62721",
         "lat": "51.45105",
-        "Straße_Nr": "Steinstr. 29",
         "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-18:00"
       },
       "geometry": {
@@ -2035,7 +1990,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "www.thalia.de",
-        "Fon": "91 85 0",
+        "Fon": "+492841 91 85 0",
         "Montag_von": "09.30",
         "Montag_bis": "19.00",
         "Montag_Pause": "",
@@ -2055,10 +2010,9 @@
         "Samstag_bis": "18.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Buchhandlung",
         "lng": "6.62829",
         "lat": "51.45122",
-        "Straße_Nr": "Steinstr. 30-32",
         "opening_hours": "Mo-Fr 09:30-19:00; Sa 09:30-18:00"
       },
       "geometry": {
@@ -2099,10 +2053,9 @@
         "Samstag_bis": "18.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Oberbekleidung",
         "lng": "6.62556",
         "lat": "51.45150",
-        "Straße_Nr": "Steinstr. 1",
         "opening_hours": "Mo-Fr 10:00-18:30; Sa 10:00-18:00"
       },
       "geometry": {
@@ -2123,7 +2076,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "www.jackandjones.de",
-        "Fon": "17 30 751",
+        "Fon": "+492841 17 30 751",
         "Montag_von": "10.00",
         "Montag_bis": "19.00",
         "Montag_Pause": "",
@@ -2143,10 +2096,9 @@
         "Samstag_bis": "18.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Oberbekleidung",
         "lng": "6.62787",
         "lat": "51.45086",
-        "Straße_Nr": "Steinstr. 41",
         "opening_hours": "Mo-Fr 10:00-19:00; Sa 10:00-18:00"
       },
       "geometry": {
@@ -2167,7 +2119,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "www.vodafone-moers.de",
-        "Fon": "36 74 870",
+        "Fon": "+492841 36 74 870",
         "Montag_von": "10.00",
         "Montag_bis": "19.00",
         "Montag_Pause": "",
@@ -2187,10 +2139,9 @@
         "Samstag_bis": "17.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Telekommunikation",
         "lng": "6.62682",
         "lat": "51.45144",
-        "Straße_Nr": "Steinstr. 10a",
         "opening_hours": "Mo-Fr 10:00-19:00; Sa 10:00-17:00"
       },
       "geometry": {
@@ -2211,7 +2162,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "",
-        "Fon": "0178 / 335 428 3",
+        "Fon": "+49178 / 335 428 3",
         "Montag_von": "10.00",
         "Montag_bis": "12.00",
         "Montag_Pause": "",
@@ -2231,10 +2182,9 @@
         "Samstag_bis": "16.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Zahnpflege",
         "lng": "6.62795",
         "lat": "51.45229",
-        "Straße_Nr": "Neuer Wall 2",
         "opening_hours": "Mo-Th 10:00-12:00; We,Fr 16:00-19:00; Sa 10:00-16:00"
       },
       "geometry": {
@@ -2275,10 +2225,9 @@
         "Samstag_bis": "",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Getränke",
         "lng": "6.62795",
         "lat": "51.45229",
-        "Straße_Nr": "Neuer Wall 2",
         "opening_hours": "Tu-Fr 15:00-18:00"
       },
       "geometry": {
@@ -2319,10 +2268,9 @@
         "Samstag_bis": "15.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Friseur",
         "lng": "6.62795",
         "lat": "51.45229",
-        "Straße_Nr": "Neuer Wall 2",
         "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-15:00"
       },
       "geometry": {
@@ -2343,7 +2291,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "www.dvag.de/Klaudia-van.Beek-Ruebner",
-        "Fon": "9 65 93",
+        "Fon": "+492841 9 65 93",
         "Montag_von": "10.00",
         "Montag_bis": "12.00",
         "Montag_Pause": "",
@@ -2363,10 +2311,9 @@
         "Samstag_bis": "",
         "Samstag_Pause": "",
         "sonstiges": "und nach Vereinbarung",
-        "Branche": "",
+        "Branche": "Vermögensberatung",
         "lng": "6.62795",
         "lat": "51.45229",
-        "Straße_Nr": "Neuer Wall 2",
         "opening_hours": "Mo-Fr 10:00-12:00; We 16:00-18:00"
       },
       "geometry": {
@@ -2407,10 +2354,9 @@
         "Samstag_bis": "",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Übersetzungsbüro",
         "lng": "6.62795",
         "lat": "51.45229",
-        "Straße_Nr": "Neuer Wall 2",
         "opening_hours": "Mo-Fr 09:30-13:00,15:00-17:45"
       },
       "geometry": {
@@ -2431,7 +2377,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "www.generationsberatung-moers.de",
-        "Fon": "88 243 88",
+        "Fon": "+492841 88 243 88",
         "Montag_von": "10.00",
         "Montag_bis": "12.00",
         "Montag_Pause": "",
@@ -2451,10 +2397,9 @@
         "Samstag_bis": "",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "IHK",
         "lng": "6.62795",
         "lat": "51.45229",
-        "Straße_Nr": "Neuer Wall 2",
         "opening_hours": "Mo 10:00-12:00; We,Fr 15:00-17:00"
       },
       "geometry": {
@@ -2475,7 +2420,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "www.optic-basso.de",
-        "Fon": "2 55 88",
+        "Fon": "+492841 2 55 88",
         "Montag_von": "09.00",
         "Montag_bis": "18.30",
         "Montag_Pause": "",
@@ -2495,10 +2440,9 @@
         "Samstag_bis": "14.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Optiker",
         "lng": "6.62795",
         "lat": "51.45229",
-        "Straße_Nr": "Neuer Wall 2",
         "opening_hours": "Mo-Fr 09:00-18:30; Sa 09:00-14:00"
       },
       "geometry": {
@@ -2519,7 +2463,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "www.massagepraxis-wallzentrum.de",
-        "Fon": "2 87 97",
+        "Fon": "+492841 2 87 97",
         "Montag_von": "08.00",
         "Montag_bis": "18.00",
         "Montag_Pause": "",
@@ -2539,10 +2483,9 @@
         "Samstag_bis": "",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Massage",
         "lng": "6.62795",
         "lat": "51.45229",
-        "Straße_Nr": "Neuer Wall 2",
         "opening_hours": "Mo-Fr 08:00-18:00"
       },
       "geometry": {
@@ -2563,7 +2506,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "www.msd-com.de",
-        "Fon": "88 32 8 30",
+        "Fon": "+492841 88 32 8 30",
         "Montag_von": "10.00",
         "Montag_bis": "18.00",
         "Montag_Pause": "12.30 - 13.30",
@@ -2583,10 +2526,9 @@
         "Samstag_bis": "13.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Druck und Beschriftungen",
         "lng": "6.62795",
         "lat": "51.45229",
-        "Straße_Nr": "Neuer Wall 2",
         "opening_hours": "Mo-Fr 10:00-12:30,13:30-18:00; Sa 10:00-13:00"
       },
       "geometry": {
@@ -2607,7 +2549,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "",
-        "Fon": "2 96 99",
+        "Fon": "+492841 2 96 99",
         "Montag_von": "09.30",
         "Montag_bis": "18.30",
         "Montag_Pause": "13.00 - 15.00",
@@ -2627,10 +2569,9 @@
         "Samstag_bis": "14.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Musikinstrumente",
         "lng": "6.62795",
         "lat": "51.45229",
-        "Straße_Nr": "Neuer Wall 2",
         "opening_hours": "Mo-Fr 09:30-13:00,15:00-18:30; Sa 09:30-14:00"
       },
       "geometry": {
@@ -2671,10 +2612,9 @@
         "Samstag_bis": "13.00",
         "Samstag_Pause": "",
         "sonstiges": "Samstags mit Termin auch länger ",
-        "Branche": "",
+        "Branche": "Textilien",
         "lng": "6.62795",
         "lat": "51.45229",
-        "Straße_Nr": "Neuer Wall 2",
         "opening_hours": "Mo-Fr 10:00-17:00; Sa 10:30-14:00"
       },
       "geometry": {
@@ -2695,7 +2635,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "www.derpart.com/niag",
-        "Fon": "13 76 0",
+        "Fon": "+492841 13 76 0",
         "Montag_von": "09.00",
         "Montag_bis": "18.00",
         "Montag_Pause": "",
@@ -2715,10 +2655,9 @@
         "Samstag_bis": "14.00",
         "Samstag_Pause": "",
         "sonstiges": "",
-        "Branche": "",
+        "Branche": "Reisebüro",
         "lng": "6.62874",
         "lat": "51.45167",
-        "Straße_Nr": "Neuer Wall  10",
         "opening_hours": "Mo-Fr 09:00-18:00; Sa 10:00-14:00"
       },
       "geometry": {
@@ -2739,7 +2678,7 @@
         "PLZ": "47441",
         "Ort": "Moers",
         "URL": "www.provinzial.com",
-        "Fon": "99 88 99 0",
+        "Fon": "+492841 99 88 99 0",
         "Montag_von": "09.00",
         "Montag_bis": "17.00",
         "Montag_Pause": "",
@@ -2759,10 +2698,9 @@
         "Samstag_bis": "",
         "Samstag_Pause": "",
         "sonstiges": "und nach Vereinbarung",
-        "Branche": "",
+        "Branche": "Versicherung",
         "lng": "6.61412",
         "lat": "51.45102",
-        "Straße_Nr": "Hülsdonker Str. 53",
         "opening_hours": "Mo-Fr 09:00-17:00"
       },
       "geometry": {

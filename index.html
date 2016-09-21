@@ -38,6 +38,7 @@
           </form>
           <ul class="nav navbar-nav">
             <li><a href="#" data-toggle="collapse" data-target=".navbar-collapse.in" id="about-btn">&nbsp;&nbsp;Über uns</a></li>
+            <li><a href="#" data-toggle="collapse" data-target=".navbar-collapse.in" id="branche-btn">&nbsp;&nbsp;Branchen</a></li>
            <li><a href="https://www.moers.de/de/inhalt/impressum-und-rechtliche-hinweise/">Impressum</a></li>
             <li class="hidden-xs"><a href="#" data-toggle="collapse" data-target=".navbar-collapse.in" id="list-btn">&nbsp;&nbsp;POI Liste</a></li>
           </ul>
@@ -131,7 +132,7 @@
                 <p>Die Richtigkeit der Daten wird nicht garantiert. Alle Informationen auf dieser Map finden Sie durch eine vollständige und auch durch eine teilweise vollständige Eingabe in das Suchfeld.</p>
               </div>
               <div class="tab-pane fade" id="contact">
-                <p>Wenn Sie Verbesserungsvorschläge haben oder Ihr Geschäft in die Liste eingetragen werden soll, melden Sie sich unter: </p>
+                <p>Wenn Sie Verbesserungsvorschläge haben oder Ihr Geschäft in die Liste eingetragen werden soll, wenden Sie sich an: <a href="mailto:contact@best-coins.com"> Guido Makowski</a> </p>
               </div>
               <div class="tab-pane fade" id="laden-tab">
                 <p>Datensatz für die Geschäfte in Moers: <a href="http://download.moers.de/Laden/" target="_blank">Geschäfte Moers</a></p>
@@ -139,6 +140,60 @@
             </div>
           </div>
         </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div class="modal fade" id="branchenModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close" type="button" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title">Brachen</h4>
+          </div>
+          <div class="modal-body">
+            <table class='table table-striped table-bordered table-condensed'>
+              <tr><td>Bäckerei</td></tr>
+              <tr><td>Blumen</td></tr>
+              <tr><td>Buchhandlung</td></tr>
+              <tr><td>Café</td></tr>
+              <tr><td>Call Center</td></tr>
+              <tr><td>Druck und Beschriftungen</td></tr>
+              <tr><td>Fachhandel Nähmaschinen</td></tr>
+              <tr><td>Foto</td></tr>
+              <tr><td>Friseur</td></tr>
+              <tr><td>Gardinen</td></tr>
+              <tr><td>Geschenkartikel</td></tr>
+              <tr><td>Getränke</td></tr>
+              <tr><td>Handy und Elektro</td></tr>
+              <tr><td>Heimtextilien, Oberbekleidung</td></tr>
+              <tr><td>Herrenmode</td></tr>
+              <tr><td>Hörakkustik</td></tr>
+              <tr><td>IHK</td></tr>
+              <tr><td>Imbiss</td></tr>
+              <tr><td>Kaffee-Shop</td></tr>
+              <tr><td>Lotto</td></tr>
+              <tr><td>Massage</td></tr>
+              <tr><td>Modeschmuck</td></tr>
+              <tr><td>Modeschmuck und Lederwaren</td></tr>
+              <tr><td>Münzen</td></tr>
+              <tr><td>Musikinstrumente</td></tr>
+              <tr><td>Oberbekleidung</td></tr>
+              <tr><td>Optiker</td></tr>
+              <tr><td>Parfümerie</td></tr>
+              <tr><td>Reisebüro</td></tr>
+              <tr><td>Restaurant</td></tr>
+              <tr><td>Schmuck</td></tr>
+              <tr><td>Telekommunikation</td></tr>
+              <tr><td>Textilien</td></tr>
+              <tr><td>Übersetzungsbüro</td></tr>
+              <tr><td>Vermögensberatung</td></tr>
+              <tr><td>Versicherung</td></tr>
+              <tr><td>Weine</td></tr>
+              <tr><td>Zahnpflege</td></tr>
+            </table>
+            </div>
+          </div>
+        <!-- /.modal-content -->
       </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
 
@@ -187,9 +242,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.3/handlebars.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.1.1/list.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js"></script>
-    <script src="https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/leaflet.markercluster.js"></script>
+    <script src="assets/js/markercluster.js"></script>
     <script src="https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.min.js"></script>
     <script src="assets/leaflet-groupedlayercontrol/leaflet.groupedlayercontrol.js"></script>
     <script src="assets/js/app.js"></script>
+    <script src="http://openingh.openstreetmap.de/opening_hours.js/opening_hours+deps.min.js"></script>
+
   </body>
 </html>

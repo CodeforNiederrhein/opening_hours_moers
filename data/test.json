@@ -1,0 +1,581 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "PanoTitle": "Haagstr-Kastell-Klosterstr",
+        "lat": "51.450945",
+        "lng": " 6.625564",
+        "PanoID": "1930"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.625564,
+          51.450945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PanoTitle": "Klosterstraße",
+        "lat": "51.451183",
+        "lng": " 6.625737",
+        "PanoID": "1204"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.625737,
+          51.451183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PanoTitle": "Kastell",
+        "lat": "51.450580",
+        "lng": " 6.625298",
+        "PanoID": "1931"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.625298,
+          51.45058
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PanoTitle": "Altes Landratsamt",
+        "lat": "51.450159",
+        "lng": " 6.624992",
+        "PanoID": "1932"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.624992,
+          51.450159
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PanoTitle": "Haagstraße",
+        "lat": "51.450066",
+        "lng": " 6.628353",
+        "PanoID": "2307"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.628353,
+          51.450066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PanoTitle": "Uerdingerstr./Haagstr",
+        "lat": "51.450221",
+        "lng": " 6.629005",
+        "PanoID": "1938"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.629005,
+          51.450221
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PanoTitle": "Kiosk West",
+        "lat": "51.450707",
+        "lng": " 6.629218",
+        "PanoID": "1933"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.629218,
+          51.450707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PanoTitle": "Steinstraße",
+        "lat": "51.450877",
+        "lng": " 6.628442",
+        "PanoID": "1216"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.628442,
+          51.450877
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PanoTitle": "Steinstraße",
+        "lat": "51.451018",
+        "lng": " 6.627881",
+        "PanoID": "1213"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.627881,
+          51.451018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PanoTitle": "Steinstraße/Burgstraße",
+        "lat": "51.451115",
+        "lng": " 6.627412",
+        "PanoID": "1212"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.627412,
+          51.451115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PanoTitle": "Burgstraße",
+        "lat": "51.450781",
+        "lng": " 6.627148",
+        "PanoID": "1195"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.627148,
+          51.450781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PanoTitle": "Steinstraße",
+        "lat": "51.451246",
+        "lng": " 6.627098",
+        "PanoID": "1217"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.627098,
+          51.451246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PanoTitle": "Pfefferstraße",
+        "lat": "51.451876",
+        "lng": " 6.626842",
+        "PanoID": "1211"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.626842,
+          51.451876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PanoTitle": "Steinstraße",
+        "lat": "51.451457",
+        "lng": " 6.626454",
+        "PanoID": "1215"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.626454,
+          51.451457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PanoTitle": "Pfefferstraße",
+        "lat": "51.451938",
+        "lng": " 6.626457",
+        "PanoID": "1210"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.626457,
+          51.451938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PanoTitle": "Kirchstraße/Pfefferstraße",
+        "lat": "51.451986",
+        "lng": " 6.626227",
+        "PanoID": "1201"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.626227,
+          51.451986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PanoTitle": "Kirchstraße",
+        "lat": "51.452285",
+        "lng": " 6.626351",
+        "PanoID": "1202"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.626351,
+          51.452285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PanoTitle": "Kirchstraße/Friedrichstraße",
+        "lat": "51.452530",
+        "lng": " 6.626689",
+        "PanoID": "1200"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.626689,
+          51.45253
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PanoTitle": "Kirchstraße",
+        "lat": "51.452833",
+        "lng": " 6.626791",
+        "PanoID": "1203"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.626791,
+          51.452833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PanoTitle": "Wallzentrum/Kirchstraße",
+        "lat": "51.453022",
+        "lng": " 6.627016",
+        "PanoID": "1220"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.627016,
+          51.453022
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PanoTitle": "Unterwallstraße/Neuer Wall",
+        "lat": "51.453171",
+        "lng": " 6.627628",
+        "PanoID": "1939"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.627628,
+          51.453171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PanoTitle": "Friedrichstraße",
+        "lat": "51.452433",
+        "lng": " 6.626988",
+        "PanoID": "1197"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.626988,
+          51.452433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PanoTitle": "Friedrichstraße",
+        "lat": "51.452091",
+        "lng": " 6.627387",
+        "PanoID": "1196"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.627387,
+          51.452091
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PanoTitle": "Steinstraße",
+        "lat": "51.451576",
+        "lng": " 6.625789",
+        "PanoID": "1214"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.625789,
+          51.451576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PanoTitle": "Neumarkt",
+        "lat": "51.452368",
+        "lng": " 6.625682",
+        "PanoID": "1206"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.625682,
+          51.452368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PanoTitle": "Hans-Dieter-Hüsch-Platz/Wallzentrum",
+        "lat": "51.451775",
+        "lng": " 6.627988",
+        "PanoID": "1198"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.627988,
+          51.451775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PanoTitle": "Neustraße",
+        "lat": "51.451798",
+        "lng": " 6.624649",
+        "PanoID": "1207"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.624649,
+          51.451798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PanoTitle": "Neustraße",
+        "lat": "51.451917",
+        "lng": " 6.624054",
+        "PanoID": "1208"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.624054,
+          51.451917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PanoTitle": "Neustraße",
+        "lat": "51.452099",
+        "lng": " 6.623268",
+        "PanoID": "1209"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.623268,
+          51.452099
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PanoTitle": "Neustraße",
+        "lat": "51.452184",
+        "lng": " 6.622826",
+        "PanoID": "1934"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.622826,
+          51.452184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PanoTitle": "Zum Alten Brauhaus",
+        "lat": "51.452336",
+        "lng": " 6.622233",
+        "PanoID": "1935"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.622233,
+          51.452336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PanoTitle": "Altmarkt",
+        "lat": "51.451530",
+        "lng": " 6.626131",
+        "PanoID": "1194"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.626131,
+          51.45153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PanoTitle": "Rathausvorplatz",
+        "lat": "51.453268",
+        "lng": " 6.626469",
+        "PanoID": "1936"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.626469,
+          51.453268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PanoTitle": "Moerser Schloss",
+        "lat": "51.449827",
+        "lng": " 6.624706",
+        "PanoID": "1937"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.624706,
+          51.449827
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PanoTitle": "Neumarkt",
+        "lat": "51.451698",
+        "lng": " 6.625235",
+        "PanoID": "1205"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.625235,
+          51.451698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PanoTitle": "Hans-Dieter-Hüsch-Platz",
+        "lat": "51.451752",
+        "lng": " 6.627585",
+        "PanoID": "1199"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.627585,
+          51.451752
+        ]
+      }
+    }
+  ]
+}
