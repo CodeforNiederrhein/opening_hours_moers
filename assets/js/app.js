@@ -124,7 +124,7 @@ var markerClusters = new L.MarkerClusterGroup({
     disableClusteringAtZoom: 25
 });
 var openicon = L.icon({
-    iconUrl: "assets/img/shopping1_grün.png",
+    iconUrl: "assets/img/shopping1_gruen.png",
     iconSize: [20, 20],
     iconAnchor: [10, 10],
     popupAnchor: [0, -25]
