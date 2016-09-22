@@ -422,7 +422,7 @@
         "Branche": "Münzen",
         "lng": "6.63093",
         "lat": "51.45096",
-        "opening_hours": "Mo-Fr 10:00-13:30,15:30-18:00; We 10:00-13:30"
+        "opening_hours": "Mo-Fr 10:00-13:30,15:30-18:00; We,Sa 10:00-13:30"
       },
       "geometry": {
         "type": "Point",
