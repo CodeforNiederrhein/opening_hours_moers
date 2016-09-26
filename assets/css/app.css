@@ -59,6 +59,17 @@ input[type="radio"], input[type="checkbox"] {
   cursor: pointer;
   width: 250px;
 }
+#feature-info div.panorama {
+	height: 400px;
+}
+#feature-info iframe.panorama {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 0;
+}
 .sidebar-wrapper {
   width: 100%;
   height: 100%;

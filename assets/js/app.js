@@ -90,7 +90,7 @@ function syncSidebar() {
     pano.eachLayer(function (layer) {
         if (map.hasLayer(panoLayer)) {
             if (map.getBounds().contains(layer.getLatLng())) {
-                $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td style="vertical-align: middle;"><img width="20" height="20" src="assets/img/blitzer.png"></td><td class="feature-name">' + layer.feature.properties.PanoTitle + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
+                $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td style="vertical-align: middle;"><img width="20" height="20" src="assets/img/icon-360.png"></td><td class="feature-name">' + layer.feature.properties.PanoTitle + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
             }
         }
     });
@@ -124,7 +124,7 @@ var markerClusters = new L.MarkerClusterGroup({
     disableClusteringAtZoom: 25
 });
 var openicon = L.icon({
-    iconUrl: "assets/img/shopping1_grün.png",
+    iconUrl: "assets/img/shopping1_gruen.png",
     iconSize: [20, 20],
     iconAnchor: [10, 10],
     popupAnchor: [0, -25]
@@ -136,7 +136,7 @@ var closeicon = L.icon({
     popupAnchor: [0, -25]
 });
 var panoIcon = L.icon({
-    iconUrl: "assets/img/blitzer.png",
+    iconUrl: "assets/img/icon-360.png",
     iconSize: [20, 20],
     iconAnchor: [10, 10],
     popupAnchor: [0, -25]
@@ -244,7 +244,7 @@ var pano = L.geoJson(null, {
     onEachFeature: function (feature, layer) {
         if (feature.properties) {
             var url = "https://moers-stadtrundgang.telepano.de/tour.html?s=pano" +feature.properties.PanoID+ "&skipintro&html5=only"
-            var content ="Unter folgendem Link findet man ein 360° Panoramer von dem Standort: " +'<br>' + '<a href=https://moers-stadtrundgang.telepano.de/tour.html?s=pano'+feature.properties.PanoID+'&skipintro&html5=only target="_blank">'+feature.properties.PanoTitle +' </a>' ;
+            var content = '<div class="panorama"></div><iframe src="https://moers-stadtrundgang.telepano.de/tour.html?s=pano'+feature.properties.PanoID+'&skipintro&html5=only" class="panorama"></iframe>';
 
                 layer.on({
                 click: function (e) {
@@ -368,7 +368,7 @@ var baseLayers = {};
 var groupedOverlays = {
     "Daten": {
         "<img src='assets/img/shopping1.png' width='20' height='20'>&nbsp;Geschäfte": ladenLayer,
-        "<img src='assets/img/blitzer.png' width='20' height='20'>&nbsp;Panorama": panoLayer
+        "<img src='assets/img/icon-360.png' width='20' height='20'>&nbsp;Panorama": panoLayer
     },
 };
 var layerControl = L.control.groupedLayers(baseLayers, groupedOverlays, {
