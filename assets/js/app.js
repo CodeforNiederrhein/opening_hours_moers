@@ -4,11 +4,17 @@ $(window).resize(function () {
 });
 $(document).on("click", ".feature-row", function (e) {
     $(document).off("mouseout", ".feature-row", clearHighlight);
-    sidebarClick(parseInt($(this).attr("id"), 10));
+	if($(this).attr("id")) {
+		sidebarClick(parseInt($(this).attr("id"), 10));
+	} else if($(this).attr("menu")) {
+		syncSidebarGroup($(this).attr("menu"));
+	}
 });
 if (!("ontouchstart" in window)) {
     $(document).on("mouseover", ".feature-row", function (e) {
-        highlight.clearLayers().addLayer(L.circleMarker([$(this).attr("lat"), $(this).attr("lng")], highlightStyle));
+		if($(this).attr("lat")) {
+			highlight.clearLayers().addLayer(L.circleMarker([$(this).attr("lat"), $(this).attr("lng")], highlightStyle));
+		}
     });
 }
 $(document).on("mouseout", ".feature-row", clearHighlight);
@@ -76,25 +82,57 @@ function sidebarClick(id) {
         map.invalidateSize();
     }
 }
+function fillSidebarWithItems(group) {
+	$("#feature-list tbody").append('<tr class="feature-row" menu="root"><td style="vertical-align: middle;"><i class="fa fa-home" style="font-size:1.5em;"></i></td><td>Zurück</td><td style="vertical-align: middle;"><i class="fa fa-chevron-left pull-right"></i></td></tr>');
+
+	if('shopping' === group) {
+		/* Loop through laden layer and add only features which are in the map bounds */
+		laden.eachLayer(function (layer) {
+			if (map.hasLayer(ladenLayer)) {
+				if (map.getBounds().contains(layer.getLatLng())) {
+					$("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td style="vertical-align: middle;"><img width="20" height="20" src="assets/img/shopping1.png"></td><td class="feature-name">' + layer.feature.properties.Firma + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
+				}
+			}
+		});
+	} else if('panorama' === group) {
+		pano.eachLayer(function (layer) {
+			if (map.hasLayer(panoLayer)) {
+				if (map.getBounds().contains(layer.getLatLng())) {
+					$("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td style="vertical-align: middle;"><img width="20" height="20" src="assets/img/icon-360.png"></td><td class="feature-name">' + layer.feature.properties.PanoTitle + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
+				}
+			}
+		});
+	}
+}
+function fillSidebarWithGroups() {
+	$("#feature-list tbody").append('<tr class="feature-row" menu="panorama"><td style="vertical-align: middle;"><img width="20" height="20" src="assets/img/icon-360.png"></td><td class="feature-name">360° Panoramen</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
+	$("#feature-list tbody").append('<tr class="feature-row" menu="shopping"><td style="vertical-align: middle;"><img width="20" height="20" src="assets/img/shopping1.png"></td><td class="feature-name">Geschäfte</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
+}
 function syncSidebar() {
     /* Empty sidebar features */
     $("#feature-list tbody").empty();
-    /* Loop through laden layer and add only features which are in the map bounds */
-    laden.eachLayer(function (layer) {
-        if (map.hasLayer(ladenLayer)) {
-            if (map.getBounds().contains(layer.getLatLng())) {
-                $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td style="vertical-align: middle;"><img width="20" height="20" src="assets/img/shopping1.png"></td><td class="feature-name">' + layer.feature.properties.Firma + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
-            }
-        }
+
+	fillSidebarWithGroups();
+
+	/* Update list.js featureList */
+    featureList = new List("features", {
+        valueNames: ["feature-name"]
     });
-    pano.eachLayer(function (layer) {
-        if (map.hasLayer(panoLayer)) {
-            if (map.getBounds().contains(layer.getLatLng())) {
-                $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td style="vertical-align: middle;"><img width="20" height="20" src="assets/img/icon-360.png"></td><td class="feature-name">' + layer.feature.properties.PanoTitle + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
-            }
-        }
+    featureList.sort("feature-name", {
+        order: "asc"
     });
-    /* Update list.js featureList */
+}
+function syncSidebarGroup(group) {
+    /* Empty sidebar features */
+    $("#feature-list tbody").empty();
+
+	if("root" === group) {
+		syncSidebar();
+	} else {
+		fillSidebarWithItems(group);
+	}
+
+	/* Update list.js featureList */
     featureList = new List("features", {
         valueNames: ["feature-name"]
     });
